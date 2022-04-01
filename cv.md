@@ -51,3 +51,9 @@ function isIsogram(str){
 - "Frontend Lab by Clevertec" [https://clevertec.ru](https://clevertec.ru/study/frontend.html) 
 
 ---
+
+### Languages:
+
+- English \- Beginner/Elementary
+- Belarusian - Native
+- Russian \- Native
