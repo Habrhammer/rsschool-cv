@@ -17,3 +17,15 @@
 I'm a beginner frontend developer.
 
 ---
+
+### Skills:
+
+- HTML5, CSS3, SCSS
+- JavaScript
+- React
+- Vue.js
+- WordPress
+- PHP
+- Git
+
+---
