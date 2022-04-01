@@ -42,3 +42,12 @@ function isIsogram(str){
 ```
 
 ---
+
+### Courses:
+
+- "Development and promotion of Web-projects" Computer Academy STEP
+- "Modern JavaScript from beginning"  [www.udemy.com](https://www.udemy.com/course/modern-javascript-from-beginning/) 
+- "React JS - the Way of the Samurai 1.0" [www.youtube.com](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
+- "Frontend Lab by Clevertec" [https://clevertec.ru](https://clevertec.ru/study/frontend.html) 
+
+---
