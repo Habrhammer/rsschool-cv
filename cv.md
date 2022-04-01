@@ -2,8 +2,6 @@
 
 ## Junior Frontend Developer
 
----
-
 ### Contact information:
 
 - **E-mail:** iamsorry1885@gmail.com
