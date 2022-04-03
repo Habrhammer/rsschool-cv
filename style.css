@@ -251,6 +251,7 @@ h6 {
 .courses__name {
    font-family: "Montserrat";
    font-size: 22px;
+   line-height: 28px;
    color: #9F8415;
    text-transform: uppercase;
    margin-bottom: 10px;
@@ -282,6 +283,7 @@ h6 {
    font-family: "Montserrat";
    font-size: 22px;
    line-height: 28px;
+   margin-bottom: 10px;
 }
 
 .sidebar__code {}
