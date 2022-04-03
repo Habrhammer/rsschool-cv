@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV#2. HTML, CSS & Git Basics</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Montserrat:ital,wght@1,500&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrapper">
       <div class="content">
         <div class="column-left">
           <header class="header">
-            <div class="header__image"><img src="./images/image.jpg" alt=""></div>
+            <div class="header__image">
+              <img src="./images/image.jpg" alt="" />
+            </div>
             <h2 class="header__name">Gabrusyonok Konstantin</h2>
             <div class="header__specialization">Junior Frontend Developer</div>
           </header>
@@ -53,7 +61,7 @@
         <div class="column-right">
           <aside class="sidebar">
             <section class="sidebar__courses courses">
-              <h3 class="courses__title">Courses</h3>
+              <div class="courses__title"><h3>Courses</h3></div>
               <ul class="courses__body">
                 <li class="courses__item">
                   <div class="courses__name">
@@ -96,15 +104,15 @@
               </ul>
             </section>
             <section class="sidebar__languages languages">
-              <h3 class="languages__title">Languages</h3>
+              <div class="languages__title"><h3>Languages</h3></div>
               <ul class="languages__list">
-                <li class="languages__item">English - Beginner/Elementary</li>
-                <li class="languages__item">Belarusian - Native</li>
-                <li class="languages__item">Russian - Native</li>
+                <li class="languages__item"><b>English</b> - Beginner/Elementary</li>
+                <li class="languages__item"><b>Belarusian</b> - Native</li>
+                <li class="languages__item"><b>Russian</b> - Native</li>
               </ul>
             </section>
             <section class="sidebar__code code">
-              <h3 class="code__title">Code example</h3>
+              <div class="code__title"><h3>Code example</h3></div>
               <div class="code__description">
                 <b>Isograms kata from Codewars:</b> An isogram is a word that
                 has no repeating letters, consecutive or non-consecutive.
@@ -116,8 +124,7 @@
                 <pre>
 function isIsogram(str){
    return str.length === [...new Set([...str.toLowerCase()])].length;
-}               
-                  </pre
+}</pre
                 >
               </div>
             </section>
