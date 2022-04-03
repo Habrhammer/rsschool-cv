@@ -1,0 +1,324 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   /* height: 100%;
+   width: 100%; */
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+.wrapper {
+   width: 900px;
+   margin: 30px auto;
+   box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 25%);
+
+
+
+}
+
+.content {
+   display: flex;
+   background-color: #1D2A42;
+}
+
+.column-left {
+   color: #fff;
+   /* flex: 1 0 45%; */
+   width: 420px;
+   padding: 50px 45px;
+}
+
+.header {}
+
+.header__image {
+   position: relative;
+   width: 300px;
+   height: 300px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+.header__image img {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 5px solid #FFCC00;
+ 
+}
+
+.header__name {
+   text-align: center;
+   font-size: 43px;
+   font-family: "League Spartan";
+   margin-bottom: 20px;
+}
+
+.header__specialization {
+   font-family: "Montserrat";
+   font-size: 22px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.main {}
+
+.main__about {}
+
+.about {
+   margin-bottom: 40px;
+}
+
+.about__content {
+   font-family: "PT Sans";
+   font-size: 23px;
+   line-height: 28px;
+ 
+}
+
+.main__skills {}
+
+.skills {
+   margin-bottom: 45px;
+}
+
+.skills__title {
+   font-family: "League Spartan";
+   font-size: 38px;
+   margin-bottom: 20px;
+}
+
+.skills__list {}
+
+.skills__item {
+   font-family: "Montserrat";
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+
+.main__contacts {}
+
+.contacts {
+   margin-bottom: 45px;
+}
+
+.contacts__title {
+   font-family: "League Spartan";
+   font-size: 38px;
+   margin-bottom: 20px;
+}
+
+
+.contacts__list {}
+
+.contacts__item {
+   font-family: "PT Sans";
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+
+.contacts__item a{
+   font-family: "PT Sans";
+   cursor: pointer;
+   font-size: 22px;
+   color: #fff;
+}
+
+.column-right {
+   background-color: #fff;
+   padding: 50px 0 200px;
+   /* flex: 1 0 45%; */
+   width: 460px;
+  
+}
+
+.sidebar {}
+
+.sidebar__courses {}
+
+.courses {
+   margin-bottom: 45px;
+}
+
+.courses__title {
+   background-color: #FFCC00;
+   margin-bottom: 40px;
+}
+
+.courses__title h3{
+   font-family: "League Spartan";
+   font-size: 38px;
+   padding: 10px 45px;
+}
+
+.courses__body {
+   padding: 0 45px;
+}
+
+.courses__item {
+   margin-bottom: 30px;
+}
+.courses__item a{
+   font-family: "PT Sans";
+   color: #000;
+   cursor: pointer;
+   font-size: 22px;
+}
+
+.courses__name {
+   font-family: "Montserrat";
+   font-size: 22px;
+   line-height: 28px;
+   color: #3F4C64;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+}
+
+.courses__link {}
+
+.sidebar__languages {}
+
+.languages {
+   margin-bottom: 45px;
+}
+
+.languages__title {
+   background-color: #FFCC00;
+   margin-bottom: 40px;
+}
+.languages__title h3 {
+   font-family: "League Spartan";
+   font-size: 38px;
+   padding: 10px 45px;
+}
+
+.languages__list {
+   padding: 0 45px;
+}
+
+.languages__item {
+   font-family: "Montserrat";
+   font-size: 22px;
+   line-height: 28px;
+   margin-bottom: 10px;
+}
+
+.sidebar__code {}
+
+.code {}
+
+.code__title {
+   background-color: #FFCC00;
+   margin-bottom: 40px;
+}
+.code__title h3 {
+   font-family: "League Spartan";
+   font-size: 38px;
+   padding: 10px 45px;
+}
+
+.code__description {
+   font-family: "PT Sans";
+   font-size: 22px;
+   line-height: 28px;
+   color: #000;
+   padding: 0 45px;
+   margin-bottom: 35px;
+}
+
+.code__solution {
+   position: relative;
+   font-size: 20px;
+}
+.code__solution pre {
+   /* font-size: "PT Sans"; */
+   background-color: #AFBCD4;
+   padding: 30px 15px;
+   position: absolute;
+   font-size: 20px;
+   line-height: 24px;
+   left: -371px;
+}
