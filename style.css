@@ -252,7 +252,7 @@ h6 {
    font-family: "Montserrat";
    font-size: 22px;
    line-height: 28px;
-   color: #9F8415;
+   color: #3F4C64;
    text-transform: uppercase;
    margin-bottom: 10px;
 }
@@ -315,7 +315,7 @@ h6 {
 }
 .code__solution pre {
    /* font-size: "PT Sans"; */
-   background-color: #FFCC00;
+   background-color: #AFBCD4;
    padding: 30px 15px;
    position: absolute;
    font-size: 20px;
